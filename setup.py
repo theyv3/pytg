@@ -149,7 +149,6 @@ setup(
     ],
     python_requires='>=3.6.1',
     include_package_data=True,
-    universal=True,
     cmdclass={
         'build_ext': NodeJsBuilder,
     },
